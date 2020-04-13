@@ -1,0 +1,29 @@
+{
+  "name": "zaproxy-node-forwarder",
+  "version": "1.0.0",
+  "description": "Forward OWASP ZAP HTTP requests through a Node server to bypass limitations in setting the Host header.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "owasp",
+    "zap"
+  ],
+  "author": "Brandon Evans",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.19.2",
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1"
+  }
+}
